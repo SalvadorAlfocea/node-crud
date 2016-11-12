@@ -1,0 +1,32 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "Una API de puta madre, tio",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalvadorAlfocea/node-crud.git"
+  },
+  "author": "Salvador Alfocea",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "express-session": "^1.14.1",
+    "express-validator": "^2.20.10",
+    "flash": "^1.1.0",
+    "formidable": "^1.0.17",
+    "mongoose": "^4.6.3",
+    "path": "^0.12.7",
+    "prerender-node": "^2.4.0"
+  }
+}
